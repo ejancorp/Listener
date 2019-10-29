@@ -27,7 +27,8 @@
     "license": "GPLv3",
     "devDependencies": {
         "electron": "^7.0.0",
-        "electron-builder": "^21.2.0"
+        "electron-builder": "^21.2.0",
+        "electron-packager": "^14.1.0"
     },
     "dependencies": {
         "bluebird": "^3.7.1"
