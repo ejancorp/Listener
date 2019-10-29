@@ -4,6 +4,7 @@ const {
 const Promise = require('bluebird');
 
 class Listener {
+
    constructor() {
       this.stream = null;
       this.microphone = null;
