@@ -1,25 +1,35 @@
 {
-  "name": "electron-quick-start",
-  "version": "1.0.0",
-  "description": "A minimal Electron application",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron ."
-  },
-  "repository": "https://github.com/electron/electron-quick-start",
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
-  ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
-  "devDependencies": {
-    "electron": "^7.0.0"
-  },
-  "dependencies": {
-    "bluebird": "^3.7.1"
-  }
+    "name": "listener",
+    "version": "1.0.0",
+    "description": "Listen to your mic, enhanced audio.",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "pack": "electron-builder --dir",
+        "dist": "electron-builder",
+        "postinstall": "electron-builder install-app-deps"
+    },
+    "repository": "https://github.com/ejancorp/listener",
+    "keywords": [
+        "listener"
+    ],
+    "build": {
+        "productName": "Listener",
+        "appId": "com.ejcorpuz.listener",
+        "directories": {
+            "output": "build"
+        },
+        "mac": {
+            "icon": "images/icons/light/mac/app.icns"
+        }
+    },
+    "author": "Ej Corpuz",
+    "license": "GPLv3",
+    "devDependencies": {
+        "electron": "^7.0.0",
+        "electron-builder": "^21.2.0"
+    },
+    "dependencies": {
+        "bluebird": "^3.7.1"
+    }
 }
