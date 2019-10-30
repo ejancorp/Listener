@@ -1,7 +1,7 @@
 # Listener
 
-<div align="center">
-  <img alt="Listener" src="image.png" width="400px">
+<div align="left">
+  <img alt="Listener" src="image.png">
 </div>
 
 Helps you listen to your environment more clearly using your microphone.
@@ -14,7 +14,7 @@ Helps you listen to your environment more clearly using your microphone.
 
 This application is available for Mac OSX for the meantime.
 
-Download the latest version from the [releases](https://github.com/Splode/pomotroid/releases) page.
+Download the latest version from the [releases](https://github.com/ejancorp/listener/releases) page.
 
 ## Authors
 
