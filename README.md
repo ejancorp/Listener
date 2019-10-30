@@ -1,10 +1,20 @@
 # Listener
 
+<div align="center">
+  <img alt="Listener" src="image.png" width="400px">
+</div>
+
 Helps you listen to your environment more clearly using your microphone.
 
 ## Built With
 
 * [Electron](https://electronjs.org/) - Build cross platform desktop apps with JavaScript, HTML, and CSS
+
+# Download
+
+This application is available for Mac OSX for the meantime.
+
+Download the latest version from the [releases](https://github.com/Splode/pomotroid/releases) page.
 
 ## Authors
 
